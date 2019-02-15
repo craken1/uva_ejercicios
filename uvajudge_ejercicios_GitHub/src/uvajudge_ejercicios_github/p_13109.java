@@ -1,14 +1,24 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package uvajudge_ejercicios_github;
 
-import java.io.IOException;
 import java.util.Arrays;
-
 import java.util.Scanner;
 
-public class Main {
+/**
+ *
+ * @author pc
+ */
+public class p_13109 {
 
-    public static void main(String[] args) throws IOException {
-
-        Scanner sc = new Scanner(System.in);
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+       Scanner sc = new Scanner(System.in);
         int a, n, b, c, s = 0, pos = 0;
 
         a = sc.nextInt();
